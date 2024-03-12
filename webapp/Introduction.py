@@ -7,7 +7,7 @@ import numpy as np
 
 root_dir=os.path.dirname(os.path.abspath(__file__))
 homepage_img_dir=os.path.join(root_dir,"images","home_page")
-st.title("Project Introduction")
+st.markdown("<h1 style='text-align: center;'>PragatiPath: Our Innovative Solution for Traffic Congestion</h1>", unsafe_allow_html=True)
 col1,col2,col3=st.columns([1,3,1])
 with col2:
     video_path=os.path.join(homepage_img_dir,"video.mp4")
